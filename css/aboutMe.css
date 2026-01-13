@@ -1,0 +1,21 @@
+body {
+    background-color: darkblue;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+#aboutSection {
+    border: 1px solid darkblue;
+    margin-left: 20px;
+    padding-left: 5px;
+}
+
+ul {
+    list-style-type: square;
+    border: 1px solid darkblue;
+    padding-top: 5px;
+}
