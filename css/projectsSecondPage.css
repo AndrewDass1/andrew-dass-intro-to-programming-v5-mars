@@ -5,9 +5,17 @@ body {
 }
 
 header {
-    /* position: sticky; */
     top: 0;
-    color: yellow;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
 }
 
 .flexHeading {
@@ -20,26 +28,20 @@ header {
     margin-left: auto;
 }
 
-
-h1 {
-    font-size: 48px;
-    text-align: center;
-}
-
-.icons {
+.projectsFlexbox {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    background-color: darkblue;
 }
 
-.captions {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: darkblue;
+h3 {
+    font-size: 24px;
 }
 
+
+ul {
+    list-style-type: square;
+}
 
 a:link {
     text-decoration: none;
