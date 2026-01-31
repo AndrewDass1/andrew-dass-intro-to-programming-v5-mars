@@ -26,17 +26,14 @@ h1 {
     text-align: center;
 }
 
-.icons {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.gridForIconsAndCaptions {
+    display: grid;
+    grid-template-columns: auto auto auto;
     background-color: darkblue;
 }
 
-.captions {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.gridForIconsAndCaptions div {
+    color: yellow;
     background-color: darkblue;
 }
 
@@ -57,4 +54,16 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 12px;
+    }    
+    
 }
