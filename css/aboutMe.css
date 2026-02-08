@@ -34,11 +34,19 @@ h1 {
     
 }
 
+/* not used either */
 .listOfSkills {
     list-style-type: square;
     border: 1px solid darkblue;
     padding-top: 5px;
 }
+
+#skillsSection {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
 
 
 @media (max-width: 1000px) {
