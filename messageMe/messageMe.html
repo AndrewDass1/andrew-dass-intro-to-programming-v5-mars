@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Andrew Dass - Send me a Message</title>
+        <link rel = "stylesheet" href="../css/messageMe.css" type="text/css" />
+        <link rel="icon" type="image/png" href="../websiteImages/browserTabImage.png">
+    </head>
+
+    <body>
+        <script src="messageMe.js" defer> </script>
+
+        <header>
+            <div class="flexHeading">
+
+                <div class=linkedinLogo>
+                    <a href="https://www.linkedin.com/in/andrewdass/">
+                        <img src="./../websiteImages/linkedin_logo_yellow.png" width="50" height="50">    
+                    </a>    
+                </div>
+
+            </div>
+        
+                <h1>ANDREW DASS</h1>
+        </header>
+
+
+        <section>
+            <h2> Leave a Message </h2>
+
+            <p id="leave_message_text">  </p>
+
+            <form name="leave_message" id="leave_message" action="" method="POST" target="_self"> 
+
+                <label for="usersName"> Enter name:  </label>
+                <input type="text" name="usersName" id="usersName" required="true">  </input>
+                <br>
+
+                <label for="usersEmail"> Enter email: </label>
+                <input type="email" name="usersEmail" id="usersEmail" required="true">  </input>
+                <br>
+
+                <label for="usersMessage">  </label>
+                <textarea name="usersMessage" id="usersMessage" required="true">  </textarea>
+                <br>
+
+                <label for="submitButton">  </label>
+                <button type="submit" id="submitButton" onclick="forSubmitButton()"> Submit </button>
+                <br>
+
+                
+            </form>
+
+            <p id=testtag> </p>
+
+        </section>
+
+        <section id="messages">
+            <h2>Messages</h2>
+
+            <ul id="messagesBulletPoints">
+                
+            </ul>
+        </section>
+    </body>
+
+
+</html>

@@ -1,0 +1,46 @@
+body {
+    background-color: darkblue;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    top: 0;
+    color: yellow;
+}
+
+.flexHeading {
+    display: flex;
+}
+
+.linkedinLogo {
+    display: flex;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+ul {
+    color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:visited {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
