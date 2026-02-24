@@ -35,6 +35,12 @@ h2 {
     /* flex-direction: column; */
 }
 
+/* .githubProjectNames {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+} */
+
 
 ul {
     list-style-type: square;
