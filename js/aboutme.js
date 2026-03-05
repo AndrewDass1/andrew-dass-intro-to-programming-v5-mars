@@ -13,6 +13,12 @@ for (let i = 0; i < skills.length; i++) {
     createAndPostSkillDiv();
 }
 
+let getNameAndYear = document.getElementById("showNameAndYear");
+let today = new Date();
+let thisYear = today.getFullYear();
+
+getNameAndYear.innerHTML = "Andrew Dass " + thisYear;
+document.body.append(getNameAndYear);
 
 
 

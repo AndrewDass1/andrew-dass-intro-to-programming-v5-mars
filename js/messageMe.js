@@ -43,13 +43,14 @@ function forSubmitButton(event) {
     removeButton.type = "button";
     // console.log(removeButton);
 
-    removeButton.addEventListener("click", forRemoveButton);
+    // removeButton.addEventListener("click", forRemoveButton);
+    removeButton.addEventListener("click", () => newMessage.remove());
 
-    function forRemoveButton() {
-        let entry = document.getElementById("messagesBulletPoints");
-        console.log(entry);
-        entry.remove();
-    }
+    // function forRemoveButton() {
+    //     let entry = document.getElementById("messagesBulletPoints");
+    //     console.log(entry);
+    //     entry.remove();
+    // }
 
     newMessage.append(document.createElement("br"))
     messageList.append(newMessage);
@@ -63,8 +64,17 @@ function forSubmitButton(event) {
     document.getElementById("leave_message").reset();
 }
 
-forSubmitButton();
+// Adding name and date
+let today = new Date();
+let thisYear = today.getFullYear();
 
+let copyright = document.createElement("p");
+
+copyright.innerHTML = "Andrew Dass " + thisYear;
+
+document.body.append(copyright.innerHTML);
+
+// ---------------------------------
 
 // Get the form
 
@@ -79,5 +89,3 @@ forSubmitButton();
 // .reset() clears the form data on the webpage if event.preventdefault is there
 
 // -----------------------------------
-
-// 
