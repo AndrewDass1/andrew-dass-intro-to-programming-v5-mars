@@ -1,7 +1,7 @@
 # Andrew-Dass-Intro-To-Programming-v5-Mars
 
 ## First Page of Website - Index.html
-This repository contains files to display the latest edition of my portfolio or my website. Every file's extension to run my website in this repository is either HTML, CSS, JavaScript or png. The first page to enter my website is "index.html" and when opening "index.html", the user sees the homepage that displays my full name, my LinkedIn in the top right corner, and four icons: "ABOUT ME", "MY WORK AND PROJECTS", "ARTICLES I"VE WRITTEN", and "CONTACT ME". There are other attributes such as <style>,  <script>, <img> and much more are embedded into this file to connect to other folders in the root directory titled "css", "js" and "websiteImages" that either have CSS code, JavaScript code or pictures respectively in order to run and display information. There are also folders containing only HTML files dedicated to run each of these four icons in the root directory. Most of my website is clicking links or icons to enter a new page and these folders are organized to have subfolders if one of these icons brings the user to another page.
+This repository contains files to display the latest edition of my portfolio or my website. Every file's extension to run my website in this repository is either HTML, CSS, JavaScript or png. The first page to enter my website is "index.html" and when opening "index.html", the user sees the homepage that displays my full name, my LinkedIn in the top right corner, and four icons: "ABOUT ME", "MY WORK AND PROJECTS", "ARTICLES I"VE WRITTEN", and "CONTACT ME". There are other attributes such as <style>,  <script>, <img> and much more are embedded into this file to connect to other folders in the root directory titled "css", "js" and "websiteImages" that either have CSS code, JavaScript code or pictures respectively in order to run and display information. There are also folders containing only HTML files dedicated to run each of these four icons in the root directory. Most of my website is clicking links or icons to enter a new page and these folders are organized to have subfolders if one of these icons brings the user to another page. At the bottom of this README.md file, under the heading "Open API Project" I also included a link that will lead the user to another of my Github repositories which is about an Open API that I created to scrape the current weather and temperature by using Open-Meteo's API. 
 
 ## About Me
 This page explains more about who I am, my work history and skills I used in work.
@@ -25,7 +25,10 @@ I connected my Medium page to the "Articles I've Written" logo showing all artic
 
 My "Contact Me" page does not send a message to me yet, and I will implement that feature in the future.
 
+## Open API Project
+This is the link to the Open API Project I worked on: https://github.com/AndrewDass1/AndrewDass-Intro-to-Programming-Mars-Open-API-Project
+
 ## Current Website 
-Below is the link to my current website where I have my projects published:  https://www.andrewdass.com/
+This is the link to my current website where I have my projects published:  https://www.andrewdass.com/
 
 In the future, I will update the link above with this portfolio website. 
