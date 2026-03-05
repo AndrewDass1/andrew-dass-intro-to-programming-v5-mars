@@ -28,6 +28,12 @@ fetch('https://api.github.com/users/AndrewDass1/repos', { method:"GET"})
 
         num += 1;
     })
+    let getNameAndYear = document.getElementById("showNameAndYear");
+    let today = new Date();
+    let thisYear = today.getFullYear();
+
+    getNameAndYear.innerHTML = "Andrew Dass " + thisYear;
+    document.body.append(getNameAndYear);    
 })
 .catch(error => console.log("Error. No data available."));
 
